@@ -9,4 +9,10 @@ class ConvertorServiceTest < ActiveSupport::TestCase
     assert_equal service.to, 'INR'
     assert_equal service.value, 1
   end
+
+  test "should get conversion from external api" do
+    service = ::ConvertorService.new(from: 'USD', to: 'INR', value: 1)
+    service.call
+    service.result
+  end
 end
