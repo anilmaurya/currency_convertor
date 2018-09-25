@@ -1,7 +1,6 @@
-# README
+# Currency Convertor
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Currency Convertor is a Rails application which provides a user interface and follows a Test Driven Development approach. The given application uses exchangertesapi for fetching the rates.
 
 Things you may want to cover:
 
