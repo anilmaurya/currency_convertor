@@ -9,3 +9,9 @@ Approach which we followed in building this software are:
 4. Travis build
 5. bootstrap ui
 6. PR - Review for collaboration
+
+Contributor:
+1. Anil
+2. Nikhil
+3. Ajay
+4. Garima
