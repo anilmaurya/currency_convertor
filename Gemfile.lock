@@ -237,6 +237,8 @@ DEPENDENCIES
   pry-nav
   puma (~> 3.11)
   rails (~> 5.2.1)
+
+  rake
   redis-namespace (= 1.5.3)
   sass-rails (~> 5.0)
   selenium-webdriver
