@@ -13,7 +13,7 @@ class ExternalApiService < BaseService
   end
 
   def make_request
-    @response = HTTP.get("https://api.exchangeratesapi.io/latest?base=#{base_currency}")
+    @response = HTTP.get(CURRENCY_CONVERTER_API_URL + "?base=#{base_currency}")
   end
 
   def update_cache
