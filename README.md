@@ -1,24 +1,11 @@
-# README
+# Currency Convertor
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Project is a part of part of  Software Crafting Competition held on 25 SEPT 2018 (JOSH 11th Anniversary)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Approach which we followed in building this software are:
+1. Service based arhitecture (OOPS)
+2. Single Responsiblity Principle for each service
+3. Minitest
+4. Travis build
+5. bootstrap ui
+6. PR - Review for collaboration
